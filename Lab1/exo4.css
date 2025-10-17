@@ -1,0 +1,38 @@
+
+html {
+  padding: 50px;
+  background-color: #e8eae8;
+  color: #5d665b;
+}
+
+
+body {
+  margin: 70px 50px 70px 120px;
+}
+
+
+body {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  line-height: 180%;
+}
+
+
+h2:first-of-type {
+  font-size: 75%;
+  color: #966b72;
+  font-family: Georgia, serif;
+}
+
+p:first-of-type {
+  font-size: 70%;
+}
+
+p:nth-of-type(2) {
+  text-indent: 3em;
+}
+
+
+h1 {
+  color: #ffffdd;
+}

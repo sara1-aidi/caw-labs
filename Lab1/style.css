@@ -1,0 +1,128 @@
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 40px auto;
+  max-width: 900px;
+  background-color: #f5f7fa;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 0 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  color: #2a5d84;
+  border-bottom: 3px solid #2a5d84;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #1f4e63;
+  margin-top: 30px;
+}
+
+ul {
+  background: #e6eef4;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+
+p {
+  text-align: justify;
+  margin: 15px 0;
+}
+
+a {
+  color: #005fa3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #007bcd;
+  text-decoration: underline;
+}
+
+
+img{
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+ul li a[href="#Top"] {
+  background: #2a5d84;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+ul li a[href="#Top"]:hover {
+  background: #1f4e63;
+}
+
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+    color: #e6edf3;
+  }
+
+  h1 {
+    color: #58a6ff;
+    border-color: #58a6ff;
+  }
+
+  h2 {
+    color: #79c0ff;
+  }
+
+  ul {
+    background: #161b22;
+  }
+
+  a {
+    color: #58a6ff;
+  }
+
+  a:hover {
+    color: #79c0ff;
+  }
+
+  img, video {
+    box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+  }
+
+  ul li a[href="#Top"] {
+    background: #58a6ff;
+    color: #0d1117;
+  }
+
+  ul li a[href="#Top"]:hover {
+    background: #79c0ff;
+  }
+  iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+}
+
